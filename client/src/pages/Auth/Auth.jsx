@@ -56,7 +56,7 @@ const Auth = () => {
         <img src={Logo} alt="" />
 
         <div className="Webname">
-          <h1>Relay Connections</h1>
+          <h1>Relay</h1>
           <h6>Connections for life</h6>
         </div>
       </div>
