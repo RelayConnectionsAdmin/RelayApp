@@ -49,7 +49,13 @@ const Auth = () => {
   };
 
   return (
+
+    
+    
     <div className="Auth">
+
+      <h1 className="Relay">Relay</h1><br/>
+
       {/* left side */}
 
       <div className="a-left">
@@ -64,6 +70,7 @@ const Auth = () => {
       {/* right form side */}
 
       <div className="a-right">
+ 
         <form className="infoForm authForm" onSubmit={handleSubmit}>
           <h3>{isSignUp ? "Register" : "Login"}</h3>
           {isSignUp && (
@@ -87,6 +94,7 @@ const Auth = () => {
                 onChange={handleChange}
               />
             </div>
+
           )}
 
           <div>
